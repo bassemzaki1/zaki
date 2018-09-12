@@ -1,0 +1,275 @@
+/* Start Section Navbar */
+
+body {
+    padding-top: 50px;
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+.navbar-default {
+    background-color: #FFF;
+    border: none;
+    margin-bottom: 0
+}
+
+.navbar-nav >li >a {
+    font-size: 18px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #0cab86
+}
+
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+    font-size: 30px;
+    color: #0cab86;
+    font-weight: bold
+}
+
+/* End Section Navbar */
+
+/* Start Section Skills */
+
+.skills {
+    background-color: #F1F1F1
+}
+
+.skills h2 {
+    margin-bottom: 40px;
+    font-weight: bold
+}
+
+.skills .thumbnail {
+    padding: 45px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+@media (max-width: 768px) {
+    .skills .thumbnail {
+    padding: 15px
+    }
+}
+
+.skills .thumbnail:hover {
+    color: #0cab86
+}
+
+.skills .thumbnail i {
+    font-size: 100px
+}
+
+.skills .thumbnail .caption h3 {
+    margin: 0
+}
+
+
+/* End Section Skills */
+
+/* Start Section Projects */
+
+.projects h2 {
+    margin-bottom: 40px;
+    font-weight: bold
+}
+
+.projects .tab-switch li {
+    background-color: #0cab86;
+    color: #FFF;
+    opacity: .6;
+    border-bottom: 1px solid #FFF;
+    height: 110px;
+    line-height: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.projects .tab-switch .selected,
+.projects .tab-switch li:hover{
+    opacity: 1
+}
+
+.projects .projects-content div:not(.project-one) {
+    display: none
+}
+
+.projects .projects-content h4 {
+    font-weight: bold
+}
+
+.projects .projects-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7
+}
+
+.projects .projects-content a {
+    background-color: #4a4747;
+    color: #FFF;
+    border: 0;
+    outline: 0;
+    font-weight: bold
+}
+
+.projects i {
+    font-size: 200px;
+    margin-top: 35px
+}
+
+@media (max-width: 992px) {
+    .projects ul li {
+        display: inline-block;
+        width: 32.9%
+    }
+    
+    .projects .projects-content {
+        text-align: center
+    }
+}
+
+@media (max-width: 768px) {
+    .projects .tab-switch li {
+        height: 80px;
+        line-height: 80px;
+        width: 30%
+    }
+}
+
+/* End Section Projects */
+
+/* Start Section Features */
+
+.features h2 {
+    margin-bottom: 40px;
+    font-weight: bold
+}
+
+.features h4 {
+    
+    font-size: 26px;
+    color: #FFF;
+    margin-bottom: 9px;
+    display: inline-block;
+    background-color: #0cab86;
+    padding: 15px
+}
+
+
+.features i {
+    font-size: 37px;
+    background-color: #4a4747;
+    color: #FFF;
+    margin-bottom: 40px;
+    padding: 13px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.features i:hover {
+    color: #4ee2c0
+}
+
+.features i.fa-keyboard,
+.features i.fa-mouse-pointer {
+    margin-bottom: 0
+}
+
+@media (max-width: 768px) {
+    .features h4 {
+       font-size: 24px;
+    }
+}
+
+@media (max-width: 386px) {
+    .features i {
+        font-size: 25px
+    }
+}
+
+/* End Section Features */
+
+/* Start Contact Us */
+
+.contact-us h2 {
+    margin-bottom: 20px;
+    font-weight: bold
+}
+
+.contact-us ul li i {
+    color: #F00
+}
+
+@media (max-width: 768px) {
+    .contact-us {
+        padding: 0 0 10px !important
+    }
+}
+
+/* End Contact Us */
+
+/* Start Scroll Top */
+
+#scroll-top {
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    display: none
+}
+
+/* End Scroll Top */
+
+
+
+/* Start My Framework */
+
+.sections {
+    padding: 20px 0
+}
+
+.main-color {
+    color: #0cab86
+        
+        /*#8b8c36*/
+}
+
+.secondary-color {
+    color: #da5555
+}
+
+.scrolled {
+    background-color: rgba(0,0,0,0.8)
+}
+
+.scrolled .navbar-brand {
+    color: #FFF !important
+}
+
+.scrolled li a {
+    color: #FFF !important
+}
+
+.scrolled li a:hover {
+    text-decoration: underline
+}
+
+/* End My Framework */
